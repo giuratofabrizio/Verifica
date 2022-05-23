@@ -1,0 +1,7 @@
+<form action="/risultato" method="GET">
+    {% for i in regioni%}
+    <input type="radio" name="regione" value="{{i}}">{{i}}<br>
+    {%endfor%}
+
+    <p><input type = "submit" value = "Submit" /></p>
+</form>
