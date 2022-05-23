@@ -27,6 +27,7 @@ def home():
 
 @app.route("/input", methods=["GET"])
 def input():
+    
     return render_template("A_input.html")
 
 
